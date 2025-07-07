@@ -1,18 +1,10 @@
-## Getting Started
+## CONTADOR
+Este é um código simples de contador que utiliza controle de fluxo para verificar dois parâmetros informados via terminal pelo usuário.
+Esses parâmetros definem o número de iterações e imprimem os números incrementados conforme a contagem.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Além disso, o código também faz uma validação que dispara uma exception personalizada nos seguintes casos:
+* Se o primeiro parâmetro for maior que o segundo, será exibido o erro: <br>
+"O segundo parâmetro deve ser maior que o primeiro".
 
-## Folder Structure
+* Caso contrário, a execução segue normalmente e a contagem é realizada.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
